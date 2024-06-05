@@ -2,30 +2,29 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    color: #FFFFFF;
     margin: 0 auto;
     font-family: variables.$main-font;
     box-sizing: border-box;
 }
-.main{
+main{
     width:100%;
     max-width: 1773px;
     margin: 0 auto;
+    
 }
 h1{
-    font-size: 48;
+    font-size: 48px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: variables.$theme-color;
 }
 h2{
     font-family: variables.$secondary-font;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: variables.$secondary-color;
 }
 p{
     font-size: 16;
-    color: #E8E8E8;
     line-height: 26px;
 }
 button{
@@ -40,8 +39,8 @@ button{
     text-transform: uppercase;
 }
 button:hover{
-    background-color: purple;
+    background-color: #577ae4;
 }
 button:focus{
-    background-color: lightblue;
+    background-color: #839deb;
 }
