@@ -1,0 +1,21 @@
+.sidenav{
+    height: 100%; /*Full height, remove this if you want 'auto' height*/
+    width: 400px;
+    position: fixed;
+    z-index: 1; /*stay on top*/
+    top: 0; /*stay on top*/
+    left: 0;
+    background-color: variables.$theme-color;
+    overflow-x: hidden; /*disable horizontal scroll*/
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: variables.$secondary-color;
+    display: block;
+}
+.sidenav a:hover{
+    color: aliceblue;
+}
