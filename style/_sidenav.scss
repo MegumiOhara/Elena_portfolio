@@ -5,17 +5,31 @@
     z-index: 1; /*stay on top*/
     top: 0; /*stay on top*/
     left: 0;
-    background-color: variables.$theme-color;
+   /* background-color: variables.$theme-color;*/
     overflow-x: hidden; /*disable horizontal scroll*/
     padding-top: 20px;
+
+    &__profile{
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    &__pic{
+        overflow: hidden;
+        border-radius: 50%;
+        height: 400px;
+    }
 }
 .sidenav a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: variables.$secondary-color;
+    color: aliceblue;
     display: block;
+    line-height: 50px;
 }
 .sidenav a:hover{
-    color: aliceblue;
+    color: rgb(193, 219, 241);
 }
