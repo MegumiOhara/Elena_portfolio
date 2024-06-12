@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1773px;
     min-height: 800px;
-    outline: orange solid;
+    outline: green solid;
     display: flex;
     align-items: center;
 
@@ -11,10 +11,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 }
 .pic{
     overflow: hidden;
-    
 }

@@ -1,12 +1,6 @@
 @use 'variables';
 @import 'base';
+@import 'header';
+@import 'profile';
 
-@import 'sidenav';
 
-
-/*on smaller screens, where height is less than 450px
-, changethe style of the sidebar(less padding and a smaller font size)*/
-@media screen and (max-height: 450px) {
-    .sidenav{padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}

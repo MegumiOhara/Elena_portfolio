@@ -10,11 +10,10 @@ main{
     width:100%;
     max-width: 1773px;
     margin: 0 auto;
-    margin-left: 160px; /*same as the width of the sidenav*/
-    padding: 0px 10px;
+    outline: orange solid;
 }
 h1{
-    font-size: 48px;
+    font-size: 38px;
     font-weight: bold;
     color: variables.$theme-color;
 }
@@ -30,6 +29,7 @@ p{
 }
 button{
     width: 100%;
+    max-width: 500px;
     font-family: variables.$secondary-font;
     font-size: 16px;
     line-height: 26px;
