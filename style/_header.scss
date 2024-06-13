@@ -42,12 +42,5 @@
         color: variables.$secondary-color;
     }    
 }
-.sticky{
-    position:fixed;
-    top: 0;
-    width: 100%;
-}
-.sticky+ section{
-    padding-top: 45px;
-}
+
 
