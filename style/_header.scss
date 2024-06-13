@@ -1,13 +1,14 @@
 .header{
     width: 100%;
-    max-width: 1773px;
-    height: 100px;
+    height: 6rem;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 
     &__wrapper{
     width: 100%;
     max-width: 1770px;
-    min-height: 100px;
+    min-height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -15,6 +16,7 @@
 
     &__title{
         padding-left: 30px;
+        font-weight: 700;
     }
 
     &__span{
@@ -24,6 +26,8 @@
 .nav{
     width: 100%;
     max-width: 900px;
+    height: 3rem;
+    padding-left: 30px;
 
     &__list{
         list-style-type: none;
@@ -34,6 +38,16 @@
     &__link>a{
         text-decoration: none; 
     }
-    
+    &__link>a:hover{
+        color: variables.$secondary-color;
+    }    
+}
+.sticky{
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky+ section{
+    padding-top: 45px;
 }
 
