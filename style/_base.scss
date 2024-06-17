@@ -17,19 +17,22 @@ main{
     margin: 0 auto;
 }
 h1{
-    font-size: 38px;
+    font-size: 30px;
     font-weight: bold;
     color: variables.$theme-color;
 }
 h2{
     font-family: variables.$secondary-font;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 26px;
     color: variables.$theme-color;
 }
+h3{
+    color: variables.$theme-color;
+}
 p{
-    font-size: 16;
-    line-height: 26px;
+    font-size: 20;
+    line-height: 30px;
     padding: 30px;
 }
 button{
@@ -45,7 +48,7 @@ button{
     text-transform: uppercase;
 }
 button:hover{
-    background-color: #577ae4;
+    background-color: rgb(230, 230, 167);
 }
 button:focus{
     background-color: #839deb;
