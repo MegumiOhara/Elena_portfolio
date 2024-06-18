@@ -5,19 +5,20 @@
     background: linear-gradient(
         to bottom,
         variables.$theme-color 0%, 
-        variables.$theme-color 60%,
-        #B3CDE0 60%,
+        variables.$theme-color 50%,
+        #B3CDE0 50%,
         #B3CDE0 100%
     );
-    outline: red solid;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 
     &__nav{
-        outline: orange solid;
         width: 500px;
         text-decoration: none;
+        padding: 10px;
+        margin-top: 20px;
         
     }
     &__socials{
@@ -30,4 +31,10 @@
 
 .footer__socials a{
     color: white;
+}
+.footer__socials a:hover{
+    color: #B3CDE0;
+}
+.footer__c{
+    margin-top: 10px;
 }
