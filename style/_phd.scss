@@ -8,17 +8,27 @@
     align-items: center;
 
     &__wrapper{
-        max-width: 700px;
+        width: 100%;
+        max-width: 1400px;
         height: 400px;
-        text-align: center;
+    }
+    &__text{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
     &__images{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+        align-items: end;
     }
 }
 .phd__images img{
     width: 400px;
     height: 300px;
+}
+.phd__text p{
+    width: 500px;
 }
