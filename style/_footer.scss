@@ -1,0 +1,33 @@
+.footer{
+    width:100%;
+    max-width: 1773px;
+    margin: 0 auto;
+    background: linear-gradient(
+        to bottom,
+        variables.$theme-color 0%, 
+        variables.$theme-color 60%,
+        #B3CDE0 60%,
+        #B3CDE0 100%
+    );
+    outline: red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__nav{
+        outline: orange solid;
+        width: 500px;
+        text-decoration: none;
+        
+    }
+    &__socials{
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.footer__socials a{
+    color: white;
+}

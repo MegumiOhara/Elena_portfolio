@@ -25,3 +25,14 @@
 .pub__image img{
     width: 400px;
 }
+.image__wrapper{
+    height: 500px;
+    background-image: url(/images/plane_beach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.image__wrapper span{
+    visibility: hidden;
+}
